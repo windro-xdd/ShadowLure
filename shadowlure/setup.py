@@ -21,11 +21,12 @@ setup(
     setup_requires=[
         'setuptools_git'
     ],
-    packages=find_packages(exclude=['docs', 'docs.*']),
+    packages=['shadowlure'],
+    package_dir={'shadowlure': 'shadowlure'},
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'shadowlure = decoynet.entry:main'
+            'shadowlure = shadowlure.entry:main'
         ]
     },
 )
