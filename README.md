@@ -35,7 +35,6 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: We will create the `requirements.txt` file in the next step.)*
 
 3.  **Generate the default configuration:**
     This will create `decoynet.conf` and a default `login.html` page.
@@ -60,15 +59,14 @@ The honeypot is now active. All connection attempts and captured credentials wil
 
 For more detailed information, please see the `docs` directory:
 
-- **[ShadowLure Explained](docs/docs.html)**: A user-friendly webpage explaining how the honeypot works.
 - **[Attack Simulation Guide](docs/ATTACK_SIMULATION.md)**: Step-by-step instructions for testing the honeypot.
 - **[Deployment Guide](docs/DEPLOYMENT.md)**: A guide on how to expose the honeypot to the internet (with security warnings).
 
 ---
 
-## How to Contribute
+## Contributions
 
-Contributions to improve ShadowLure are welcome.
+Contributions are welcome! If you'd like to add a new service or improve an existing one.
 
 ---
 
